@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: 0px;
+    
+
+}
+
+body{
+    background-color: #222222;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabeçalho{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-left: 45px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+    padding-right: 45px;
+}
+
+.menu-itens{
+    color: white;
+}
+
+.menu-itens:hover{
+    color: #9B06CE;
+}
+
+.botao-menu{
+    background-color: #222222;
+    color: white;
+    border: 2px solid #9B06CE;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    
+}
+
+.botao-menu:hover{
+    background-color: #9B06CE;
+    color: white;
+}
+
+.principal{
+    display: flex;
+    align-items: center;  
+}
+
+.esquerdo{
+    padding-left: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+
+.principal-roxo{
+    background: -webkit-linear-gradient(to left, #9B06CE, #840EC9);
+    background: linear-gradient(to left, #9B06CE, #840EC9);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-size: 3em;
+    margin-top: 50px;
+}
+
+.principal-branco{
+    color: white;
+    font-size: 3em;
+}
+
+.paragrafo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: left;
+}
+
+.input{
+    
+    background-color: white;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: #232123;
+    box-shadow: 2px 2px rgb(150, 23, 161);
+}
+
+.botao-enviar{
+    background-color: #9B06CE;
+    box-shadow: -2px -2px rgb(153, 146, 146);
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: #232123;
+}
+
+.botao-enviar:hover{
+    background-color: white;
+    color: #9B06CE;
+}
+
+.input-botao{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 0px;
+}
+.direita{
+    display: flex;
+    padding-right: 30px;
+}
+
+footer{
+    background-color: #180d1b;
+    color: #9B06CE;
+    text-align: center;
+    margin-top: 10px;
+}
